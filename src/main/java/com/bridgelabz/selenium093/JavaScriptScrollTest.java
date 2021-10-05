@@ -29,7 +29,9 @@ public class JavaScriptScrollTest {
         javascriptExecutor.executeScript("window.scrollBy(" + xCord + "," + yCord + ")");*/
 
         driver.get("https://www.thesmartmove.se/international/?ref=onepagelove");
+
         Thread.sleep(2000);
+
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         javascriptExecutor.executeScript("window.scrollBy(1000,0)");
 
