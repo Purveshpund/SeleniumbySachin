@@ -9,7 +9,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class DownloadTest {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.gecko.driver", "F:\\learning\\Selenium\\drivers\\geckodriver.exe");
 
         FirefoxProfile ffProfile = new FirefoxProfile();
 
